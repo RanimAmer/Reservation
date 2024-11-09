@@ -21,6 +21,8 @@ public class Payment implements Serializable {
     private Long id_payment;
     private String password_carte;
     private int num_carte;
+    private String nom;
+    private String prenom;
     private TypePayment typePayment;
 
 }
